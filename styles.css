@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     margin: 0;
   }
-
+  
 .header {
     width: 100%; 
     padding: 20px 40px;   
@@ -10,11 +10,11 @@ body {
     color: white;
 }
 .header img{
-    float: left;
+    float: right;
     padding: 0px;
 }
 .header h1 p{
-    float: right;
+    float: left;
 }
 
 .nav {
