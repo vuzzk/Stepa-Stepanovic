@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+.header {
+    width: 100%; 
+    padding: 20px 40px;   
+    background-color: maroon;
+    color: white;
+}
+.header h1 p{
+    float: left;
+    width: 50%;
+}
+.header img{
+    float: right;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(73, 7, 7);
+    font-size: 16px;
+}
+.nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: rgb(73, 7, 7);
+    background-color: wheat;
+}
+.nav a:visited {
+    color: white;
+    background-color: rgb(73, 7, 7);
+}
+.nav a:active {
+    color: maroon;
+    background-color: whitesmoke;
+}
