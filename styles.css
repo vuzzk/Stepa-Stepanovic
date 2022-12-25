@@ -9,13 +9,7 @@ body {
     background-color: maroon;
     color: white;
 }
-.header img{
-    float: right;
-    padding: 0px;
-}
-.header h1 p{
-    float: left;
-}
+
 
 .nav {
     overflow: hidden;
