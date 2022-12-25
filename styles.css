@@ -13,7 +13,6 @@ body {
     color: white;
 }
 
-
 .nav {
     overflow: hidden;
     background-color: rgb(73, 7, 7);
@@ -40,3 +39,30 @@ body {
     color: maroon;
     background-color: whitesmoke;
 }
+
+.pasus {
+    padding: 20px;
+}
+
+.tabelaOdlikovanja {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tabelaOdlikovanja td th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.tabelaOdlikovanja tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.tabelaOdlikovanja tr:hover{
+    background-color: #ddd;
+}
+.tabelaOdlikovanja th {
+    height: 50px;
+    padding: 12px;
+    background-color: maroon;
+    color: white;
+}
+
