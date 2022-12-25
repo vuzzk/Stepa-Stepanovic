@@ -53,6 +53,15 @@ body {
     padding: 8px;
     text-align: center;
 }
+.tabelaOdlikovanja img {
+    align-items: center;
+}
+.tabelaOdlikovanja tr {
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+
+}
 .tabelaOdlikovanja tr:nth-child(even){
     background-color: #f2f2f2;
 }
