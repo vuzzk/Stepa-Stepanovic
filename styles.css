@@ -6,25 +6,39 @@ body {
 .header {
     width: 100%; 
     padding-top: 20px; 
-    padding-left: 40px; 
-    padding-right: 40px; 
+    padding-left: 80px; 
     overflow: hidden;
     background-color: maroon;
     color: white;
 }
 
+.levi {
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+    font-size: 30px;
+
+}
+.desni {
+    float: right;
+    width: 60%;
+    padding-right: -40px;
+}
+
 .nav {
-    overflow: hidden;
+    width: 100%;
+    overflow: auto;
     background-color: rgb(73, 7, 7);
-    font-size: 16px;
+    position: relative;
 }
 .nav a{
     float: left;
-    display: block;
+    width: 18%;
+    font-size: 16px;
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 14px 16px;
+    padding: 12px;
     text-decoration: none;
 }
 .nav a:hover {
@@ -41,7 +55,11 @@ body {
 }
 
 .pasus {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pasus1 {
+    padding-top: 20px;
 }
 
 .tabelaOdlikovanja {
@@ -75,3 +93,22 @@ body {
     color: white;
 }
 
+.sadrzaj{
+    width:80%;
+    margin: auto;
+}
+
+.biografija{
+    width: 100%;
+    display: flex;
+}
+.divlevi {
+    flex: 1;
+}
+.divdesni {
+    flex: 2;
+}
+
+.lista {
+    list-style-type: disc;
+}
